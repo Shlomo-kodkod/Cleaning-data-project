@@ -33,6 +33,6 @@
 
 
 # Technologies Used
-Python 3
-Standard Python libraries
+- Python 3
+- Standard Python libraries
 
