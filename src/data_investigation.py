@@ -88,6 +88,3 @@ class DataInvestigation:
             total_uppercase = len([i for i in all_words if i.isupper()])
             return total_uppercase
     
-df = pd.read_csv(r'C:\Users\user\VsCodeProjects\Python\Cleaning data project\data\tweets_dataset.csv')
-investigation = DataInvestigation(df, 'Biased')
-print(investigation.sum_uppercase_words_by_label('Text', 0))
