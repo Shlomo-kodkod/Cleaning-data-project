@@ -1,5 +1,4 @@
 import pandas as pd
-import os
 
 
 # FileLoader load CSV files from disk
