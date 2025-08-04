@@ -31,12 +31,20 @@ class DataInvestigation:
                 total_sum -= self.tweet_sum_by_label(i)
             return total_sum
     
+    # Get the average length of the text in the DataFrame.
     def total_avg_text_length(self) -> float:
         if self.__df is None:
             return 0.0
         else:
             return self.__df['Text'].str.len().mean()
 
+    # Get the average length of the text for a specific label in the DataFrame.
+    def total_avg_text_length_by_label(self, label: str | int) -> float:
+        if self.__df is None:
+            return 0.0
+        else:
+            return self.__df[self.__df[self.__target_column] == label]['Text'].str.len().mean()
+        
 df = pd.read_csv(r'C:\Users\user\VsCodeProjects\Python\Cleaning data project\data\tweets_dataset.csv')
 investigation = DataInvestigation(df, 'Biased')
 print(investigation.total_avg_text_length())
