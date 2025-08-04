@@ -5,7 +5,7 @@ class DataCleaner:
     def __init__(self, df: pd.DataFrame):
         self.__df = df
 
-    # Remove unrelevant columns from the DataFrame.
+    # Remove non relevant columns from the DataFrame.
     def keep_relevant_columns(self, columns: list[str]) -> pd.DataFrame:
         if self.__df is not None:
             self.__df = self.__df[columns]

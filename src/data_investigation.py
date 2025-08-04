@@ -11,14 +11,14 @@ class DataInvestigation:
         if self.__df is None:
             return 0
         else:
-            return self.__df[self.__target_column].count()
+            return int(self.__df[self.__target_column].count())
         
     # Get the total number of tweets for a specific label in the DataFrame.
     def tweet_sum_by_label(self, label: str | int) -> int:
         if self.__df is None:
             return 0
         else:
-            return self.__df[self.__df[self.__target_column] == label][self.__target_column].count()
+            return int(self.__df[self.__df[self.__target_column] == label][self.__target_column].count())
     
     # Get the total number of tweets that are not specified by the given labels.
     def unspecified_tweet_sum_(self, label: tuple[str | int]) -> int:
@@ -29,21 +29,22 @@ class DataInvestigation:
             total_sum = self.total_tweet_sum()
             for i in label:
                 total_sum -= self.tweet_sum_by_label(i)
-            return total_sum
+            return int(total_sum)
     
     # Get the average length of the text in the DataFrame.
     def total_avg_text_length(self, column: str) -> float:
         if self.__df is None:
             return 0.0
         else:
-            return self.__df[column].str.len().mean()
+            return float(self.__df[column].str.split().str.len().mean())
 
     # Get the average length of the text for a specific label in the DataFrame.
     def total_avg_text_length_by_label(self, column: str, label: str | int) -> float:
         if self.__df is None:
             return 0.0
         else:
-            return self.__df[self.__df[self.__target_column] == label][column].str.len().mean()
+            return float(self.__df[self.__df[self.__target_column] == label][column].str.split().str.len().mean())
+
     
     # Get the longest tweets for a specific label in the DataFrame.
     def longest_tweets_by_label(self, column: str, label: str | int, n: int) -> list[str] | None:
@@ -75,7 +76,7 @@ class DataInvestigation:
             text_series = self.__df[column]
             all_words = ' '.join(text_series).split()
             total_uppercase = len([i for i in all_words if i.isupper()])
-            return total_uppercase
+            return int(total_uppercase)
 
     # Get the total number of uppercase words in the text for a specific label in the DataFrame.  
     def sum_uppercase_words_by_label(self, column: str, label: str | int) -> int:
@@ -86,5 +87,4 @@ class DataInvestigation:
             text_series = filtered_df[column]
             all_words = ' '.join(text_series).split()
             total_uppercase = len([i for i in all_words if i.isupper()])
-            return total_uppercase
-    
+            return int(total_uppercase)
