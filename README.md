@@ -19,17 +19,17 @@
 - Saved the results of the data exploration  to a JSON file named json.results.
 
 # Project Structure
-data/:
-    tweets_dataset.csv - original data set
-src/:
-    data_loader.py - loading the data
-    data_investigation.py - investigate the data
-    data_cleaner.py - cleaning the data
-    export_data.py - save the cleaned data to csv and save the results to json file
-    manager.py - load, investigate, cleaning, and export the data
-    main.py - program entry point
-results/:
-        The results of the clean information and the investigation of the information
+- data/:
+    - tweets_dataset.csv - original data set
+- src/:
+    - data_loader.py - loading the data
+    - data_investigation.py - investigate the data
+    - data_cleaner.py - cleaning the data
+    - export_data.py - save the cleaned data to csv and save the results to json file
+    - manager.py - load, investigate, cleaning, and export the data
+    - main.py - program entry point
+- results/:
+        - The results of the clean information and the investigation of the information
 
 
 # Technologies Used
