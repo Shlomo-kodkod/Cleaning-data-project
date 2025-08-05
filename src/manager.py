@@ -1,8 +1,12 @@
+import pandas as pd
+import logging
 from data_loader import FileLoader
 from data_investigation import DataInvestigation
 from data_cleaner import DataCleaner
 from export_data import ExportData
-import pandas as pd
+
+
+logger = logging.getLogger(__name__)
 
 class Manager:
     def __init__(self, file_path: str, target_column: str):
@@ -15,9 +19,9 @@ class Manager:
     def load_data(self):
         self.__df = FileLoader.load_data(self.__file_path)
         if self.__df is not None:
-            print(f"Data loaded successfully from {self.__file_path}")
+            logger.info(f"Data loaded successfully from {self.__file_path}")
         else:
-            print("Failed to load data.")
+            logger.error("Failed to load data.")
     
     # Investigate the data by calculating various statistics and exporting results to json file.
     def investigate_data(self):
@@ -55,10 +59,10 @@ class Manager:
         if self.__df is not None:
             investigation_results = self.investigate_data()
             cleaned_data = self.clean_data(['Text', 'Biased'])
-            print(cleaned_data.head())
             ExportData.export_to_csv(cleaned_data, 'results/cleaned_tweets.csv')
             ExportData.export_to_json(investigation_results, 'results/investigation_results.json')
+            logger.info("Data processing completed successfully.")
         else:
-            print("No data to process.")
+            logger.error("Data processing failed due to loading error.")
 
 
