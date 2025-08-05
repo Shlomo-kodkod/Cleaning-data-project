@@ -1,4 +1,13 @@
 from manager import Manager
+import logging
+
+
+base_config = logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s | %(levelname)s | %(name)s | %(message)s",
+        handlers=[
+            logging.FileHandler("app.log"),
+            logging.StreamHandler()])
 
 
 if __name__ == "__main__":
