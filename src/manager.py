@@ -27,7 +27,7 @@ class Manager:
     # Investigate the data by calculating various statistics and exporting results to json file.
     def investigate_data(self):
         data_builder = DataBuilder(self.__target_column, self.__df)
-        data_builder.total_tweets()
+        data_builder.tweets_sum()
         data_builder.average_length()
         data_builder.common_words()
         data_builder.longest_tweets()

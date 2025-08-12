@@ -133,3 +133,374 @@
 2025-08-12 09:51:44,426 | INFO | export_data | Data exported successfully to results/cleaned_tweets.csv
 2025-08-12 09:51:44,427 | INFO | export_data | Data exported successfully to results/investigation_results.json
 2025-08-12 09:51:44,427 | INFO | manager | Data processing completed successfully.
+2025-08-12 10:11:02,283 | INFO | data_loader | Loading data from C:\Users\user\VsCodeProjects\Python\Cleaning data project\data\tweets_dataset.csv
+2025-08-12 10:11:02,306 | INFO | manager | Data loaded successfully from C:\Users\user\VsCodeProjects\Python\Cleaning data project\data\tweets_dataset.csv
+2025-08-12 10:11:28,339 | INFO | data_loader | Loading data from C:\Users\user\VsCodeProjects\Python\Cleaning data project\data\tweets_dataset.csv
+2025-08-12 10:11:28,363 | INFO | manager | Data loaded successfully from C:\Users\user\VsCodeProjects\Python\Cleaning data project\data\tweets_dataset.csv
+2025-08-12 10:11:28,363 | INFO | data_investigation | Calculating total tweet sum.
+2025-08-12 10:11:28,364 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:11:28,364 | INFO | data_investigation | Calculating total tweet sum.
+2025-08-12 10:11:28,364 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:11:28,365 | INFO | data_investigation | Calculating total tweet sum.
+2025-08-12 10:11:28,365 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:11:28,365 | INFO | data_investigation | Calculating unspecified tweet sum for labels: (1, 0)
+2025-08-12 10:11:28,365 | INFO | data_investigation | Calculating total tweet sum.
+2025-08-12 10:11:28,365 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:11:28,365 | INFO | data_investigation | Calculating total tweet sum.
+2025-08-12 10:11:28,366 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:11:28,366 | INFO | data_investigation | Calculating total tweet sum.
+2025-08-12 10:11:28,366 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:11:28,367 | INFO | data_investigation | Successfully calculated unspecified tweet sum for labels: (1, 0)
+2025-08-12 10:11:28,367 | INFO | data_investigation | Calculating average text length for label: 1 in column: Text
+2025-08-12 10:11:28,370 | INFO | data_investigation | Successfully calculated average text length for label: 1
+2025-08-12 10:11:28,370 | INFO | data_investigation | Calculating average text length for label: 0 in column: Text
+2025-08-12 10:11:28,381 | INFO | data_investigation | Successfully calculated average text length for label: 0
+2025-08-12 10:11:28,382 | INFO | data_investigation | Calculating average text length for column: Text
+2025-08-12 10:11:28,395 | INFO | data_investigation | Successfully calculated average text length.
+2025-08-12 10:11:28,395 | INFO | data_investigation | Retrieving 10 most common words from column: Text
+2025-08-12 10:11:28,436 | INFO | data_investigation | Successfully retrieved 10 most common words.
+2025-08-12 10:11:28,439 | INFO | data_investigation | Retrieving longest tweets for label: 1 in column: Text
+2025-08-12 10:11:28,441 | INFO | data_investigation | Successfully retrieved longest tweets for label: 1
+2025-08-12 10:11:28,441 | INFO | data_investigation | Retrieving longest tweets for label: 0 in column: Text
+2025-08-12 10:11:28,444 | INFO | data_investigation | Successfully retrieved longest tweets for label: 0
+2025-08-12 10:11:28,444 | INFO | data_investigation | Calculating uppercase words for label: 1 in column: Text
+2025-08-12 10:11:28,446 | INFO | data_investigation | Successfully calculated uppercase words for label: 1
+2025-08-12 10:11:28,447 | INFO | data_investigation | Calculating uppercase words for label: 0 in column: Text
+2025-08-12 10:11:28,460 | INFO | data_investigation | Successfully calculated uppercase words for label: 0
+2025-08-12 10:11:28,462 | INFO | data_investigation | Calculating total uppercase words in column: Text
+2025-08-12 10:11:28,479 | INFO | data_investigation | Successfully calculated total uppercase words.
+2025-08-12 10:11:28,481 | INFO | data_cleaner | Keeping relevant columns: ['Text', 'Biased']
+2025-08-12 10:11:28,482 | INFO | data_cleaner | Relevant columns kept successfully.
+2025-08-12 10:11:28,482 | INFO | data_cleaner | Removing punctuation marks from column: Text
+2025-08-12 10:11:28,509 | INFO | data_cleaner | Punctuation marks removed successfully.
+2025-08-12 10:11:28,509 | INFO | data_cleaner | Converting column Text to lowercase.
+2025-08-12 10:11:28,510 | INFO | data_cleaner | Column converted to lowercase successfully.
+2025-08-12 10:11:28,511 | INFO | data_cleaner | Removing rows with unspecified values in column Biased.
+2025-08-12 10:11:28,511 | INFO | data_cleaner | Unspecified values removed successfully.
+2025-08-12 10:11:28,527 | INFO | export_data | Data exported successfully to results/cleaned_tweets.csv
+2025-08-12 10:11:28,527 | INFO | export_data | Data exported successfully to results/investigation_results.json
+2025-08-12 10:11:28,528 | INFO | manager | Data processing completed successfully.
+2025-08-12 10:13:13,732 | INFO | data_loader | Loading data from C:\Users\user\VsCodeProjects\Python\Cleaning data project\data\tweets_dataset.csv
+2025-08-12 10:13:13,758 | INFO | manager | Data loaded successfully from C:\Users\user\VsCodeProjects\Python\Cleaning data project\data\tweets_dataset.csv
+2025-08-12 10:13:13,758 | INFO | data_investigation | Calculating total tweet sum.
+2025-08-12 10:13:13,759 | INFO | data_investigation | Successfully calculated tweet sum for label: 1
+2025-08-12 10:13:13,759 | INFO | data_investigation | Calculating total tweet sum.
+2025-08-12 10:13:13,759 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:13:13,760 | INFO | data_investigation | Calculating total tweet sum.
+2025-08-12 10:13:13,760 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:13:13,760 | INFO | data_investigation | Calculating unspecified tweet sum for labels: (1, 0)
+2025-08-12 10:13:13,760 | INFO | data_investigation | Calculating total tweet sum.
+2025-08-12 10:13:13,760 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:13:13,760 | INFO | data_investigation | Calculating total tweet sum.
+2025-08-12 10:13:13,761 | INFO | data_investigation | Successfully calculated tweet sum for label: 1
+2025-08-12 10:13:13,761 | INFO | data_investigation | Calculating total tweet sum.
+2025-08-12 10:13:13,762 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:13:13,762 | INFO | data_investigation | Successfully calculated unspecified tweet sum for labels: (1, 0)
+2025-08-12 10:13:13,762 | INFO | data_investigation | Calculating average text length for label: 1 in column: Text
+2025-08-12 10:13:13,765 | INFO | data_investigation | Successfully calculated average text length for label: 1
+2025-08-12 10:13:13,765 | INFO | data_investigation | Calculating average text length for label: 0 in column: Text
+2025-08-12 10:13:13,778 | INFO | data_investigation | Successfully calculated average text length for label: 0
+2025-08-12 10:13:13,779 | INFO | data_investigation | Calculating average text length for column: Text
+2025-08-12 10:13:13,794 | INFO | data_investigation | Successfully calculated average text length.
+2025-08-12 10:13:13,794 | INFO | data_investigation | Retrieving 10 most common words from column: Text
+2025-08-12 10:13:13,835 | INFO | data_investigation | Successfully retrieved 10 most common words.
+2025-08-12 10:13:13,838 | INFO | data_investigation | Retrieving longest tweets for label: 1 in column: Text
+2025-08-12 10:13:13,839 | INFO | data_investigation | Successfully retrieved longest tweets for label: 1
+2025-08-12 10:13:13,840 | INFO | data_investigation | Retrieving longest tweets for label: 0 in column: Text
+2025-08-12 10:13:13,842 | INFO | data_investigation | Successfully retrieved longest tweets for label: 0
+2025-08-12 10:13:13,842 | INFO | data_investigation | Calculating uppercase words for label: 1 in column: Text
+2025-08-12 10:13:13,845 | INFO | data_investigation | Successfully calculated uppercase words for label: 1
+2025-08-12 10:13:13,845 | INFO | data_investigation | Calculating uppercase words for label: 0 in column: Text
+2025-08-12 10:13:13,859 | INFO | data_investigation | Successfully calculated uppercase words for label: 0
+2025-08-12 10:13:13,860 | INFO | data_investigation | Calculating total uppercase words in column: Text
+2025-08-12 10:13:13,876 | INFO | data_investigation | Successfully calculated total uppercase words.
+2025-08-12 10:13:13,879 | INFO | data_cleaner | Keeping relevant columns: ['Text', 'Biased']
+2025-08-12 10:13:13,880 | INFO | data_cleaner | Relevant columns kept successfully.
+2025-08-12 10:13:13,880 | INFO | data_cleaner | Removing punctuation marks from column: Text
+2025-08-12 10:13:13,907 | INFO | data_cleaner | Punctuation marks removed successfully.
+2025-08-12 10:13:13,907 | INFO | data_cleaner | Converting column Text to lowercase.
+2025-08-12 10:13:13,909 | INFO | data_cleaner | Column converted to lowercase successfully.
+2025-08-12 10:13:13,909 | INFO | data_cleaner | Removing rows with unspecified values in column Biased.
+2025-08-12 10:13:13,910 | INFO | data_cleaner | Unspecified values removed successfully.
+2025-08-12 10:13:13,924 | INFO | export_data | Data exported successfully to results/cleaned_tweets.csv
+2025-08-12 10:13:13,925 | INFO | export_data | Data exported successfully to results/investigation_results.json
+2025-08-12 10:13:13,926 | INFO | manager | Data processing completed successfully.
+2025-08-12 10:13:47,082 | INFO | data_loader | Loading data from C:\Users\user\VsCodeProjects\Python\Cleaning data project\data\tweets_dataset.csv
+2025-08-12 10:13:47,108 | INFO | manager | Data loaded successfully from C:\Users\user\VsCodeProjects\Python\Cleaning data project\data\tweets_dataset.csv
+2025-08-12 10:13:47,108 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:13:47,109 | INFO | data_investigation | Successfully calculated tweet sum for label: 1
+2025-08-12 10:13:47,109 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:13:47,109 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:13:47,110 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:13:47,110 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:13:47,110 | INFO | data_investigation | Calculating unspecified tweet sum for labels: (1, 0)
+2025-08-12 10:13:47,110 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:13:47,110 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:13:47,110 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:13:47,111 | INFO | data_investigation | Successfully calculated tweet sum for label: 1
+2025-08-12 10:13:47,111 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:13:47,111 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:13:47,111 | INFO | data_investigation | Successfully calculated unspecified tweet sum for labels: (1, 0)
+2025-08-12 10:13:47,111 | INFO | data_investigation | Calculating average text length for label: 1 in column: Text
+2025-08-12 10:13:47,114 | INFO | data_investigation | Successfully calculated average text length for label: 1
+2025-08-12 10:13:47,114 | INFO | data_investigation | Calculating average text length for label: 0 in column: Text
+2025-08-12 10:13:47,126 | INFO | data_investigation | Successfully calculated average text length for label: 0
+2025-08-12 10:13:47,126 | INFO | data_investigation | Calculating average text length for column: Text
+2025-08-12 10:13:47,138 | INFO | data_investigation | Successfully calculated average text length.
+2025-08-12 10:13:47,139 | INFO | data_investigation | Retrieving 10 most common words from column: Text
+2025-08-12 10:13:47,178 | INFO | data_investigation | Successfully retrieved 10 most common words.
+2025-08-12 10:13:47,182 | INFO | data_investigation | Retrieving longest tweets for label: 1 in column: Text
+2025-08-12 10:13:47,183 | INFO | data_investigation | Successfully retrieved longest tweets for label: 1
+2025-08-12 10:13:47,183 | INFO | data_investigation | Retrieving longest tweets for label: 0 in column: Text
+2025-08-12 10:13:47,186 | INFO | data_investigation | Successfully retrieved longest tweets for label: 0
+2025-08-12 10:13:47,186 | INFO | data_investigation | Calculating uppercase words for label: 1 in column: Text
+2025-08-12 10:13:47,189 | INFO | data_investigation | Successfully calculated uppercase words for label: 1
+2025-08-12 10:13:47,189 | INFO | data_investigation | Calculating uppercase words for label: 0 in column: Text
+2025-08-12 10:13:47,203 | INFO | data_investigation | Successfully calculated uppercase words for label: 0
+2025-08-12 10:13:47,205 | INFO | data_investigation | Calculating total uppercase words in column: Text
+2025-08-12 10:13:47,221 | INFO | data_investigation | Successfully calculated total uppercase words.
+2025-08-12 10:13:47,224 | INFO | data_cleaner | Keeping relevant columns: ['Text', 'Biased']
+2025-08-12 10:13:47,225 | INFO | data_cleaner | Relevant columns kept successfully.
+2025-08-12 10:13:47,225 | INFO | data_cleaner | Removing punctuation marks from column: Text
+2025-08-12 10:13:47,251 | INFO | data_cleaner | Punctuation marks removed successfully.
+2025-08-12 10:13:47,252 | INFO | data_cleaner | Converting column Text to lowercase.
+2025-08-12 10:13:47,254 | INFO | data_cleaner | Column converted to lowercase successfully.
+2025-08-12 10:13:47,254 | INFO | data_cleaner | Removing rows with unspecified values in column Biased.
+2025-08-12 10:13:47,255 | INFO | data_cleaner | Unspecified values removed successfully.
+2025-08-12 10:13:47,270 | INFO | export_data | Data exported successfully to results/cleaned_tweets.csv
+2025-08-12 10:13:47,270 | INFO | export_data | Data exported successfully to results/investigation_results.json
+2025-08-12 10:13:47,271 | INFO | manager | Data processing completed successfully.
+2025-08-12 10:15:51,013 | INFO | data_loader | Loading data from C:\Users\user\VsCodeProjects\Python\Cleaning data project\data\tweets_dataset.csv
+2025-08-12 10:15:51,035 | INFO | manager | Data loaded successfully from C:\Users\user\VsCodeProjects\Python\Cleaning data project\data\tweets_dataset.csv
+2025-08-12 10:15:51,036 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:15:51,037 | INFO | data_investigation | Successfully calculated tweet sum for label: 1
+2025-08-12 10:15:51,037 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:15:51,037 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:15:51,037 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:15:51,038 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:15:51,038 | INFO | data_investigation | Calculating unspecified tweet sum for labels: (1, 0)
+2025-08-12 10:15:51,038 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:15:51,038 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:15:51,038 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:15:51,038 | INFO | data_investigation | Successfully calculated tweet sum for label: 1
+2025-08-12 10:15:51,039 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:15:51,039 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:15:51,039 | INFO | data_investigation | Successfully calculated unspecified tweet sum for labels: (1, 0)
+2025-08-12 10:15:51,039 | INFO | data_investigation | Calculating average text length for label: 1 in column: Text
+2025-08-12 10:15:51,042 | INFO | data_investigation | Successfully calculated average text length for label: 1
+2025-08-12 10:15:51,042 | INFO | data_investigation | Calculating average text length for label: 0 in column: Text
+2025-08-12 10:15:51,054 | INFO | data_investigation | Successfully calculated average text length for label: 0
+2025-08-12 10:15:51,054 | INFO | data_investigation | Calculating average text length for column: Text
+2025-08-12 10:15:51,067 | INFO | data_investigation | Successfully calculated average text length.
+2025-08-12 10:15:51,067 | INFO | data_investigation | Retrieving 10 most common words from column: Text
+2025-08-12 10:15:51,107 | INFO | data_investigation | Successfully retrieved 10 most common words.
+2025-08-12 10:15:51,110 | INFO | data_investigation | Retrieving longest tweets for label: 1 in column: Text
+2025-08-12 10:15:51,111 | INFO | data_investigation | Successfully retrieved longest tweets for label: 1
+2025-08-12 10:15:51,112 | INFO | data_investigation | Retrieving longest tweets for label: 0 in column: Text
+2025-08-12 10:15:51,114 | INFO | data_investigation | Successfully retrieved longest tweets for label: 0
+2025-08-12 10:15:51,114 | INFO | data_investigation | Calculating uppercase words for label: 1 in column: Text
+2025-08-12 10:15:51,117 | INFO | data_investigation | Successfully calculated uppercase words for label: 1
+2025-08-12 10:15:51,117 | INFO | data_investigation | Calculating uppercase words for label: 0 in column: Text
+2025-08-12 10:15:51,131 | INFO | data_investigation | Successfully calculated uppercase words for label: 0
+2025-08-12 10:15:51,133 | INFO | data_investigation | Calculating total uppercase words in column: Text
+2025-08-12 10:15:51,148 | INFO | data_investigation | Successfully calculated total uppercase words.
+2025-08-12 10:15:51,150 | INFO | data_cleaner | Keeping relevant columns: ['Text', 'Biased']
+2025-08-12 10:15:51,151 | INFO | data_cleaner | Relevant columns kept successfully.
+2025-08-12 10:15:51,151 | INFO | data_cleaner | Removing punctuation marks from column: Text
+2025-08-12 10:15:51,178 | INFO | data_cleaner | Punctuation marks removed successfully.
+2025-08-12 10:15:51,178 | INFO | data_cleaner | Converting column Text to lowercase.
+2025-08-12 10:15:51,180 | INFO | data_cleaner | Column converted to lowercase successfully.
+2025-08-12 10:15:51,180 | INFO | data_cleaner | Removing rows with unspecified values in column Biased.
+2025-08-12 10:15:51,181 | INFO | data_cleaner | Unspecified values removed successfully.
+2025-08-12 10:15:51,196 | INFO | export_data | Data exported successfully to results/cleaned_tweets.csv
+2025-08-12 10:15:51,197 | INFO | export_data | Data exported successfully to results/investigation_results.json
+2025-08-12 10:15:51,197 | INFO | manager | Data processing completed successfully.
+2025-08-12 10:17:12,047 | INFO | data_loader | Loading data from C:\Users\user\VsCodeProjects\Python\Cleaning data project\data\tweets_dataset.csv
+2025-08-12 10:17:12,071 | INFO | manager | Data loaded successfully from C:\Users\user\VsCodeProjects\Python\Cleaning data project\data\tweets_dataset.csv
+2025-08-12 10:17:12,071 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:17:31,065 | INFO | data_loader | Loading data from C:\Users\user\VsCodeProjects\Python\Cleaning data project\data\tweets_dataset.csv
+2025-08-12 10:17:31,089 | INFO | manager | Data loaded successfully from C:\Users\user\VsCodeProjects\Python\Cleaning data project\data\tweets_dataset.csv
+2025-08-12 10:17:31,089 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:18:09,259 | INFO | data_loader | Loading data from C:\Users\user\VsCodeProjects\Python\Cleaning data project\data\tweets_dataset.csv
+2025-08-12 10:18:09,281 | INFO | manager | Data loaded successfully from C:\Users\user\VsCodeProjects\Python\Cleaning data project\data\tweets_dataset.csv
+2025-08-12 10:18:09,282 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:18:09,282 | INFO | data_investigation | Successfully calculated tweet sum for label: 1
+2025-08-12 10:18:09,283 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:18:09,283 | INFO | data_investigation | Successfully calculated tweet sum for label: 0
+2025-08-12 10:18:09,283 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:18:09,283 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:18:09,284 | INFO | data_investigation | Calculating unspecified tweet sum for labels: (1, 0)
+2025-08-12 10:18:09,284 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:18:09,284 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:18:09,284 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:18:09,285 | INFO | data_investigation | Successfully calculated tweet sum for label: 1
+2025-08-12 10:18:09,285 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:18:09,285 | INFO | data_investigation | Successfully calculated tweet sum for label: 0
+2025-08-12 10:18:09,285 | INFO | data_investigation | Successfully calculated unspecified tweet sum for labels: (1, 0)
+2025-08-12 10:18:09,285 | INFO | data_investigation | Calculating average text length for label: 1 in column: Text
+2025-08-12 10:18:09,288 | INFO | data_investigation | Successfully calculated average text length for label: 1
+2025-08-12 10:18:09,288 | INFO | data_investigation | Calculating average text length for label: 0 in column: Text
+2025-08-12 10:18:09,300 | INFO | data_investigation | Successfully calculated average text length for label: 0
+2025-08-12 10:18:09,300 | INFO | data_investigation | Calculating average text length for column: Text
+2025-08-12 10:18:09,313 | INFO | data_investigation | Successfully calculated average text length.
+2025-08-12 10:18:09,314 | INFO | data_investigation | Retrieving 10 most common words from column: Text
+2025-08-12 10:18:09,353 | INFO | data_investigation | Successfully retrieved 10 most common words.
+2025-08-12 10:18:09,356 | INFO | data_investigation | Retrieving longest tweets for label: 1 in column: Text
+2025-08-12 10:18:09,357 | INFO | data_investigation | Successfully retrieved longest tweets for label: 1
+2025-08-12 10:18:09,358 | INFO | data_investigation | Retrieving longest tweets for label: 0 in column: Text
+2025-08-12 10:18:09,360 | INFO | data_investigation | Successfully retrieved longest tweets for label: 0
+2025-08-12 10:18:09,360 | INFO | data_investigation | Calculating uppercase words for label: 1 in column: Text
+2025-08-12 10:18:09,363 | INFO | data_investigation | Successfully calculated uppercase words for label: 1
+2025-08-12 10:18:09,363 | INFO | data_investigation | Calculating uppercase words for label: 0 in column: Text
+2025-08-12 10:18:09,377 | INFO | data_investigation | Successfully calculated uppercase words for label: 0
+2025-08-12 10:18:09,379 | INFO | data_investigation | Calculating total uppercase words in column: Text
+2025-08-12 10:18:09,395 | INFO | data_investigation | Successfully calculated total uppercase words.
+2025-08-12 10:18:09,397 | INFO | data_cleaner | Keeping relevant columns: ['Text', 'Biased']
+2025-08-12 10:18:09,397 | INFO | data_cleaner | Relevant columns kept successfully.
+2025-08-12 10:18:09,398 | INFO | data_cleaner | Removing punctuation marks from column: Text
+2025-08-12 10:18:09,434 | INFO | data_cleaner | Punctuation marks removed successfully.
+2025-08-12 10:18:09,434 | INFO | data_cleaner | Converting column Text to lowercase.
+2025-08-12 10:18:09,436 | INFO | data_cleaner | Column converted to lowercase successfully.
+2025-08-12 10:18:09,436 | INFO | data_cleaner | Removing rows with unspecified values in column Biased.
+2025-08-12 10:18:09,437 | INFO | data_cleaner | Unspecified values removed successfully.
+2025-08-12 10:18:09,453 | INFO | export_data | Data exported successfully to results/cleaned_tweets.csv
+2025-08-12 10:18:09,454 | INFO | export_data | Data exported successfully to results/investigation_results.json
+2025-08-12 10:18:09,454 | INFO | manager | Data processing completed successfully.
+2025-08-12 10:22:19,379 | INFO | data_loader | Loading data from C:\Users\user\VsCodeProjects\Python\Cleaning data project\data\tweets_dataset.csv
+2025-08-12 10:22:19,401 | INFO | manager | Data loaded successfully from C:\Users\user\VsCodeProjects\Python\Cleaning data project\data\tweets_dataset.csv
+2025-08-12 10:22:19,402 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:22:19,402 | INFO | data_investigation | Successfully calculated tweet sum for label: 1
+2025-08-12 10:22:19,403 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:22:19,403 | INFO | data_investigation | Successfully calculated tweet sum for label: 0
+2025-08-12 10:22:19,404 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:22:19,404 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:22:19,404 | INFO | data_investigation | Calculating unspecified tweet sum for labels: (1, 0)
+2025-08-12 10:22:19,404 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:22:19,404 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:22:19,404 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:22:19,404 | INFO | data_investigation | Successfully calculated tweet sum for label: 1
+2025-08-12 10:22:19,405 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:22:19,405 | INFO | data_investigation | Successfully calculated tweet sum for label: 0
+2025-08-12 10:22:19,405 | INFO | data_investigation | Successfully calculated unspecified tweet sum for labels: (1, 0)
+2025-08-12 10:22:19,405 | INFO | data_investigation | Calculating average text length for column: Text
+2025-08-12 10:22:19,408 | INFO | data_investigation | Successfully calculated average text length for label: 1
+2025-08-12 10:22:19,408 | INFO | data_investigation | Calculating average text length for column: Text
+2025-08-12 10:22:19,420 | INFO | data_investigation | Successfully calculated average text length for label: 0
+2025-08-12 10:22:35,503 | INFO | data_loader | Loading data from C:\Users\user\VsCodeProjects\Python\Cleaning data project\data\tweets_dataset.csv
+2025-08-12 10:22:35,529 | INFO | manager | Data loaded successfully from C:\Users\user\VsCodeProjects\Python\Cleaning data project\data\tweets_dataset.csv
+2025-08-12 10:22:35,529 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:22:35,530 | INFO | data_investigation | Successfully calculated tweet sum for label: 1
+2025-08-12 10:22:35,530 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:22:35,530 | INFO | data_investigation | Successfully calculated tweet sum for label: 0
+2025-08-12 10:22:35,531 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:22:35,531 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:22:35,531 | INFO | data_investigation | Calculating unspecified tweet sum for labels: (1, 0)
+2025-08-12 10:22:35,531 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:22:35,531 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:22:35,531 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:22:35,532 | INFO | data_investigation | Successfully calculated tweet sum for label: 1
+2025-08-12 10:22:35,532 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:22:35,532 | INFO | data_investigation | Successfully calculated tweet sum for label: 0
+2025-08-12 10:22:35,532 | INFO | data_investigation | Successfully calculated unspecified tweet sum for labels: (1, 0)
+2025-08-12 10:22:35,532 | INFO | data_investigation | Calculating average text length for column: Text
+2025-08-12 10:22:35,535 | INFO | data_investigation | Successfully calculated average text length for label: 1
+2025-08-12 10:22:35,535 | INFO | data_investigation | Calculating average text length for column: Text
+2025-08-12 10:22:35,548 | INFO | data_investigation | Successfully calculated average text length for label: 0
+2025-08-12 10:22:35,548 | INFO | data_investigation | Calculating average text length for column: Text
+2025-08-12 10:22:35,561 | INFO | data_investigation | Successfully calculated average text length.
+2025-08-12 10:22:35,561 | INFO | data_investigation | Retrieving 10 most common words from column: Text
+2025-08-12 10:22:35,602 | INFO | data_investigation | Successfully retrieved 10 most common words.
+2025-08-12 10:22:35,605 | INFO | data_investigation | Retrieving longest tweets for label: 1 in column: Text
+2025-08-12 10:22:35,607 | INFO | data_investigation | Successfully retrieved longest tweets for label: 1
+2025-08-12 10:22:35,607 | INFO | data_investigation | Retrieving longest tweets for label: 0 in column: Text
+2025-08-12 10:22:35,609 | INFO | data_investigation | Successfully retrieved longest tweets for label: 0
+2025-08-12 10:22:35,610 | INFO | data_investigation | Calculating uppercase words for label: 1 in column: Text
+2025-08-12 10:22:35,613 | INFO | data_investigation | Successfully calculated uppercase words for label: 1
+2025-08-12 10:22:35,613 | INFO | data_investigation | Calculating uppercase words for label: 0 in column: Text
+2025-08-12 10:22:35,627 | INFO | data_investigation | Successfully calculated uppercase words for label: 0
+2025-08-12 10:22:35,629 | INFO | data_investigation | Calculating total uppercase words in column: Text
+2025-08-12 10:22:35,644 | INFO | data_investigation | Successfully calculated total uppercase words.
+2025-08-12 10:22:35,646 | INFO | data_cleaner | Keeping relevant columns: ['Text', 'Biased']
+2025-08-12 10:22:35,647 | INFO | data_cleaner | Relevant columns kept successfully.
+2025-08-12 10:22:35,647 | INFO | data_cleaner | Removing punctuation marks from column: Text
+2025-08-12 10:22:35,674 | INFO | data_cleaner | Punctuation marks removed successfully.
+2025-08-12 10:22:35,674 | INFO | data_cleaner | Converting column Text to lowercase.
+2025-08-12 10:22:35,675 | INFO | data_cleaner | Column converted to lowercase successfully.
+2025-08-12 10:22:35,676 | INFO | data_cleaner | Removing rows with unspecified values in column Biased.
+2025-08-12 10:22:35,676 | INFO | data_cleaner | Unspecified values removed successfully.
+2025-08-12 10:22:35,691 | INFO | export_data | Data exported successfully to results/cleaned_tweets.csv
+2025-08-12 10:22:35,692 | INFO | export_data | Data exported successfully to results/investigation_results.json
+2025-08-12 10:22:35,692 | INFO | manager | Data processing completed successfully.
+2025-08-12 10:28:26,459 | INFO | data_loader | Loading data from C:\Users\user\VsCodeProjects\Python\Cleaning data project\data\tweets_dataset.csv
+2025-08-12 10:28:26,482 | INFO | manager | Data loaded successfully from C:\Users\user\VsCodeProjects\Python\Cleaning data project\data\tweets_dataset.csv
+2025-08-12 10:28:26,483 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:28:26,483 | INFO | data_investigation | Successfully calculated tweet sum for label: 1
+2025-08-12 10:28:26,484 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:28:26,484 | INFO | data_investigation | Successfully calculated tweet sum for label: 0
+2025-08-12 10:28:26,484 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:28:26,484 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:28:26,485 | INFO | data_investigation | Calculating unspecified tweet sum for labels: (1, 0)
+2025-08-12 10:28:26,485 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:28:26,485 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:28:26,485 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:28:26,485 | INFO | data_investigation | Successfully calculated tweet sum for label: 1
+2025-08-12 10:28:26,485 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:28:26,486 | INFO | data_investigation | Successfully calculated tweet sum for label: 0
+2025-08-12 10:28:26,486 | INFO | data_investigation | Successfully calculated unspecified tweet sum for labels: (1, 0)
+2025-08-12 10:28:26,486 | INFO | data_investigation | Calculating average text length for column: Text
+2025-08-12 10:28:26,489 | INFO | data_investigation | Successfully calculated average text length for label: 1
+2025-08-12 10:28:26,489 | INFO | data_investigation | Calculating average text length for column: Text
+2025-08-12 10:28:26,499 | INFO | data_investigation | Successfully calculated average text length for label: 0
+2025-08-12 10:28:26,500 | INFO | data_investigation | Calculating average text length for column: Text
+2025-08-12 10:28:26,512 | INFO | data_investigation | Successfully calculated average text length.
+2025-08-12 10:28:26,512 | INFO | data_investigation | Retrieving 10 most common words from column: Text
+2025-08-12 10:28:26,552 | INFO | data_investigation | Successfully retrieved 10 most common words.
+2025-08-12 10:28:26,555 | INFO | data_investigation | Retrieving longest tweets for label: 1 in column: Text
+2025-08-12 10:28:26,556 | INFO | data_investigation | Successfully retrieved longest tweets for label: 1
+2025-08-12 10:28:26,557 | INFO | data_investigation | Retrieving longest tweets for label: 0 in column: Text
+2025-08-12 10:28:26,559 | INFO | data_investigation | Successfully retrieved longest tweets for label: 0
+2025-08-12 10:29:03,501 | INFO | data_loader | Loading data from C:\Users\user\VsCodeProjects\Python\Cleaning data project\data\tweets_dataset.csv
+2025-08-12 10:29:03,523 | INFO | manager | Data loaded successfully from C:\Users\user\VsCodeProjects\Python\Cleaning data project\data\tweets_dataset.csv
+2025-08-12 10:29:03,523 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:29:03,524 | INFO | data_investigation | Successfully calculated tweet sum for label: 1
+2025-08-12 10:29:03,524 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:29:03,525 | INFO | data_investigation | Successfully calculated tweet sum for label: 0
+2025-08-12 10:29:03,525 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:29:03,525 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:29:03,525 | INFO | data_investigation | Calculating unspecified tweet sum for labels: (1, 0)
+2025-08-12 10:29:03,525 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:29:03,526 | INFO | data_investigation | Successfully calculated total tweet sum.
+2025-08-12 10:29:03,526 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:29:03,526 | INFO | data_investigation | Successfully calculated tweet sum for label: 1
+2025-08-12 10:29:03,526 | INFO | data_investigation | Calculating tweet sum.
+2025-08-12 10:29:03,527 | INFO | data_investigation | Successfully calculated tweet sum for label: 0
+2025-08-12 10:29:03,527 | INFO | data_investigation | Successfully calculated unspecified tweet sum for labels: (1, 0)
+2025-08-12 10:29:03,527 | INFO | data_investigation | Calculating average text length for column: Text
+2025-08-12 10:29:03,531 | INFO | data_investigation | Successfully calculated average text length for label: 1
+2025-08-12 10:29:03,531 | INFO | data_investigation | Calculating average text length for column: Text
+2025-08-12 10:29:03,542 | INFO | data_investigation | Successfully calculated average text length for label: 0
+2025-08-12 10:29:03,542 | INFO | data_investigation | Calculating average text length for column: Text
+2025-08-12 10:29:03,556 | INFO | data_investigation | Successfully calculated average text length.
+2025-08-12 10:29:03,556 | INFO | data_investigation | Retrieving 10 most common words from column: Text
+2025-08-12 10:29:03,597 | INFO | data_investigation | Successfully retrieved 10 most common words.
+2025-08-12 10:29:03,599 | INFO | data_investigation | Retrieving longest tweets for label: 1 in column: Text
+2025-08-12 10:29:03,601 | INFO | data_investigation | Successfully retrieved longest tweets for label: 1
+2025-08-12 10:29:03,601 | INFO | data_investigation | Retrieving longest tweets for label: 0 in column: Text
+2025-08-12 10:29:03,604 | INFO | data_investigation | Successfully retrieved longest tweets for label: 0
+2025-08-12 10:29:03,604 | INFO | data_investigation | Calculating uppercase words in column: Text
+2025-08-12 10:29:03,606 | INFO | data_investigation | Successfully calculated uppercase words for label: 1
+2025-08-12 10:29:03,607 | INFO | data_investigation | Calculating uppercase words in column: Text
+2025-08-12 10:29:03,621 | INFO | data_investigation | Successfully calculated uppercase words for label: 0
+2025-08-12 10:29:03,623 | INFO | data_investigation | Calculating uppercase words in column: Text
+2025-08-12 10:29:03,640 | INFO | data_investigation | Successfully calculated total uppercase words.
+2025-08-12 10:29:03,642 | INFO | data_cleaner | Keeping relevant columns: ['Text', 'Biased']
+2025-08-12 10:29:03,643 | INFO | data_cleaner | Relevant columns kept successfully.
+2025-08-12 10:29:03,643 | INFO | data_cleaner | Removing punctuation marks from column: Text
+2025-08-12 10:29:03,669 | INFO | data_cleaner | Punctuation marks removed successfully.
+2025-08-12 10:29:03,669 | INFO | data_cleaner | Converting column Text to lowercase.
+2025-08-12 10:29:03,671 | INFO | data_cleaner | Column converted to lowercase successfully.
+2025-08-12 10:29:03,671 | INFO | data_cleaner | Removing rows with unspecified values in column Biased.
+2025-08-12 10:29:03,672 | INFO | data_cleaner | Unspecified values removed successfully.
+2025-08-12 10:29:03,687 | INFO | export_data | Data exported successfully to results/cleaned_tweets.csv
+2025-08-12 10:29:03,688 | INFO | export_data | Data exported successfully to results/investigation_results.json
+2025-08-12 10:29:03,688 | INFO | manager | Data processing completed successfully.
