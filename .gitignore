@@ -63,3 +63,5 @@ __pypackages__/
 # --- Local Databases ---
 *.sqlite3
 *.db
+
+app.log
