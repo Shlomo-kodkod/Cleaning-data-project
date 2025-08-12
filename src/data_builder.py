@@ -18,7 +18,6 @@ class DataBuilder:
     # Calculates how many tweets there are from each category (by category, undefined, and total).
     def tweets_sum(self) -> None:
         for key, label in self.__target_labels.items():
-            print(label)
             self.__result['total_tweets'][key] = self.__investigation.tweet_sum(label)
         self.__result['total_tweets']['total'] = self.__investigation.tweet_sum()
         self.__result['total_tweets']['unspecified'] = self.__investigation.unspecified_tweet_sum_(tuple(self.__target_labels.values()))
