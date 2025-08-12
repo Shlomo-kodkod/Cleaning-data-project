@@ -32,7 +32,3 @@
         - The results of the clean information and the investigation of the information
 
 
-# Technologies Used
-- Python 3
-- Standard Python libraries
-
