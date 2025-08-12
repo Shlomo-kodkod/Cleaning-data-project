@@ -4,6 +4,7 @@ from data_loader import FileLoader
 from data_investigation import DataInvestigation
 from data_cleaner import DataCleaner
 from export_data import ExportData
+from data_builder import DataBuilder
 
 
 logger = logging.getLogger(__name__)
@@ -25,24 +26,13 @@ class Manager:
     
     # Investigate the data by calculating various statistics and exporting results to json file.
     def investigate_data(self):
-        keys = ['antisemitic', 'non_antisemitic', 'total', 'unspecified']
-        target_labels = (0, 1)
-        investigation = DataInvestigation(self.__df, self.__target_column)
-        result = {'total_tweets': dict(), "average_length": dict(), "common_words": dict(), "longest_3_tweets": dict(), "uppercase_words": dict()}
-        result['total_tweets'][keys[0]] = investigation.tweet_sum_by_label(target_labels[1])
-        result['total_tweets'][keys[1]] = investigation.tweet_sum_by_label(target_labels[0])
-        result['total_tweets'][keys[2]] = investigation.total_tweet_sum()
-        result['total_tweets'][keys[3]] = investigation.unspecified_tweet_sum_(target_labels)
-        result['average_length'][keys[0]] = investigation.total_avg_text_length_by_label('Text', target_labels[1])
-        result['average_length'][keys[1]] = investigation.total_avg_text_length_by_label('Text', target_labels[0])
-        result['average_length'][keys[2]] = investigation.total_avg_text_length('Text')
-        result['common_words'] = investigation.common_words('Text', 10)
-        result['longest_3_tweets'][keys[0]] = investigation.longest_tweets_by_label('Text', target_labels[1], 3)
-        result['longest_3_tweets'][keys[1]] = investigation.longest_tweets_by_label('Text', target_labels[0], 3)
-        result['uppercase_words'][keys[0]] = investigation.sum_uppercase_words_by_label('Text', target_labels[1])
-        result['uppercase_words'][keys[1]] = investigation.sum_uppercase_words_by_label('Text', target_labels[0])
-        result['uppercase_words'][keys[2]] = investigation.total_uppercase_words('Text')
-        return result
+        data_builder = DataBuilder(self.__target_column, self.__df)
+        data_builder.total_tweets()
+        data_builder.average_length()
+        data_builder.common_words()
+        data_builder.longest_tweets()
+        data_builder.uppercase_words()
+        return data_builder.result
     
     # Cleaning the data and exporting the cleaned data to csv file.
     def clean_data(self, columns: list[str]):

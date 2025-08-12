@@ -23,7 +23,7 @@ class DataCleaner:
     def remove_punctuation_marks(self, column: str):
         logger.info(f"Removing punctuation marks from column: {column}")
         try:
-            self.__df.loc[:, column] = self.__df[column].str.replace(r'[^\w\s]', ' ', regex=True)
+            self.__df.loc[:, column] = self.__df[column].str.replace(r'[^\w\s]', '', regex=True)
             logger.info("Punctuation marks removed successfully.")
         except Exception as e:
             logger.error(f"Failed to remove punctuation marks from column {column}: {e}")
